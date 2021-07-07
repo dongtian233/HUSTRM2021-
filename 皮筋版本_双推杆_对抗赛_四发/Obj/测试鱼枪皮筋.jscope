@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="Cortex-M3" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="unspecified" />
+            <ElfFile Name="E:\¼ÖÓî·²µÄÎÄ¼þ\RM\EmisssionPlatform\Æ¤½î°æ±¾_Ë«ÍÆ¸Ë\Obj\STM32.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="CurrentSend[0]" Address="0x200000B4" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-7791" YMaxSampled="14686" YAvgSampled="3738" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="10000" MaxValue="20000" File="CONTROL\GimbalTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="RealPos[0]" Address="0x200000A4" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-23101" YMaxSampled="1731040" YAvgSampled="656735" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1000000" MaxValue="2000000" File="CONTROL\GimbalTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="SetPoint" Address="0x20000390" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-23448" YMaxSampled="1732270" YAvgSampled="657054" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1000000" MaxValue="2000000" File="CONTROL\GimbalTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="PushPullPosInit" Address="0x20000090" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="4134" YMaxSampled="4134" YAvgSampled="4134" Offset="16" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="CONTROL\GimbalTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
